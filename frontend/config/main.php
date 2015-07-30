@@ -21,12 +21,7 @@ $config = [
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
-<<<<<<< HEAD
-                    'levels' => ['error', 'warning  YII new'],
-=======
-                    'levels' => ['error', 'warning  YII'],
->>>>>>> branch 'master' of https://github.com/ewwgit/grocerybuddy
-                    'levels' => ['error', 'warning  YII'],
+                    'levels' => ['error', 'warning'],
                 ],
             ],
         ],
