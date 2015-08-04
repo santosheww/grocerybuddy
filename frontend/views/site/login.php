@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use yii\authclient\widgets\AuthChoice;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -29,4 +30,24 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php ActiveForm::end(); ?>
         </div>
     </div>
+</div>
+<div class="col-lg-4">
+     <?php
+					
+					$authAuthChoice = AuthChoice::begin ( [ 
+							'baseAuthUrl' => [ 
+									'site/auth' 
+							] 
+					] );
+					?>
+
+<?php foreach ($authAuthChoice->getClients() as $client): ?>
+    <?php $authAuthChoice->clientLink($client) ?><br> 
+<?php endforeach; ?>
+
+<?php AuthChoice::end(); ?>
+    </div>
+<div class="login-ver-divider">
+<div class="login-ver-divider-or">OR</div>
+</div>
 </div>
