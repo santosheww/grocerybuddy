@@ -12,22 +12,6 @@ $config = [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-    		'authClientCollection' => [
-    				'class' => 'yii\authclient\Collection',
-    				'clients' => [
-    						'google' => [
-    								'class' => 'yii\authclient\clients\GoogleOAuth',
-    								'clientId' => '100220280692-lmuuncqhti4k5ld8ikmfb4k8ie05khls.apps.googleusercontent.com',
-    								'clientSecret' => 'RK0J5r_pZIJMw0VAH-udsQIN',
-    						],
-    						'facebook' => [
-    								'class' => 'yii\authclient\clients\Facebook',
-    								'clientId' => '1589323024617551',
-    								'clientSecret' => 'f2770d20504841ad86162087aa35727e',
-    								'scope' => 'email,user_birthday,'
-    						]
-    				]
-    		],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
@@ -37,7 +21,7 @@ $config = [
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
-                    'levels' => ['error'],
+                    'levels' => ['error', 'warning'],
                 ],
             ],
         ],

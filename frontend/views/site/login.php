@@ -8,24 +8,28 @@ use yii\authclient\widgets\AuthChoice;
 /* @var $model \common\models\LoginForm */
 
 $this->title = 'Login';
-$this->params['breadcrumbs'][] = $this->title;
+$this->params ['breadcrumbs'] [] = $this->title;
 ?>
 <div class="site-login">
-    <h1><?= Html::encode($this->title) ?></h1>
+	<h1><?= Html::encode($this->title) ?></h1>
 
-    <p>Please fill out the following fields to login:</p>
+	<p>Please fill out the following fields to login:</p>
 
-        <div class="col-lg-8">
-            <?php $form = ActiveForm::begin(['id' => 'login-form',
-            		'fieldConfig' => [
-            				'template' => "<div class=\"row\">\n{label}\n<div class=\"col-lg-6\">{input}</div>\n<div class=\"row\">\n<div class=\"col-lg-8\">{error}</div></div></div>",
-            				'labelOptions' => [
-            						'class' => 'col-lg-3 control-label'
-            				]
-            		],
-            ]); ?>
-                <?= $form->field($model, 'username') ?>
-                <?= $form->field($model, 'password')->passwordInput() ?>
+	<div class="col-lg-8">
+            <?php
+												
+					$form = ActiveForm::begin ( [ 
+														'id' => 'login-form',
+														'fieldConfig' => [ 
+																'template' => "<div class=\"row\">\n{label}\n<div class=\"col-lg-6\">{input}</div>\n<div class=\"row\">\n<div class=\"col-lg-8\">{error}</div></div></div>",
+																'labelOptions' => [ 
+																		'class' => 'col-lg-3 control-label' 
+																] 
+														] 
+												] );
+												?>
+                <?= $form->field($model, 'username')?>
+                <?= $form->field($model, 'password')->passwordInput()?>
                 <?= $form->field ( $model, 'rememberMe',['options'=>['class'=>'col-lg-offset-3']])->checkbox ()?>
                 <div class="form-group">
 			<div class="col-lg-offset-1 col-lg-11">
@@ -38,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
 		</div>
             <?php ActiveForm::end(); ?>
         </div>
-</div>
+	</div>
 <div class="col-lg-4">
      <?php
 					
@@ -56,6 +60,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php AuthChoice::end(); ?>
     </div>
 <div class="login-ver-divider">
-<div class="login-ver-divider-or">OR</div>
+	<div class="login-ver-divider-or">OR</div>
 </div>
 </div>

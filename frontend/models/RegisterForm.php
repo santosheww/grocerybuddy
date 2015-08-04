@@ -21,12 +21,7 @@ class RegisterForm extends Model
 	public $state;
 	public $country;
 	public $storename;
-	public $storeaddress;
-
-
-
-
-	public $discription;	
+	public $storeaddress;	
 
 	public function rules(){
 		return [
