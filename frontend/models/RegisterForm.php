@@ -10,19 +10,22 @@ use Yii;
  */
 class RegisterForm extends Model
 {
-	public $userType=3;
-	public $username;
+	public $RegisterType=3;
 	public $name;
-	public $password;
 	public $email;
+	public $password;
 	public $mobile;
-	public $storename;
-	public $products;
 	public $address;
 	public $city;
 	public $pincode;
 	public $state;
 	public $country;
+	public $storename;
+	public $storeaddress;
+
+
+
+
 	public $discription;	
 
 	public function rules(){
@@ -38,25 +41,21 @@ class RegisterForm extends Model
 			['name','required'],
 			['name','unique','targetClass'=>'\common\models\User','message'=>'vedor Name already Exists Try For New'],
 			['name','string','min'=>2, 'max'=>250],
-			
-      		['password','required'],
-			['password','string','min'=>5,'max'=>8],
 				
 			['email','filter','filter'=>'trim'],
 			['email','required'],
 			['email','email'],
-				
+			
+      		['password','required'],
+			['password','string','min'=>5,'max'=>8],
+								
 			['mobile','filter','filter'=>'trim'],
 			['mobile','required'],
 			['mobile','number'],
-			
-			['storename','filter','filter'=>'trim'],
-			['storename','required'],
-			
-			
-			['products','filter','filter'=>'trim'],
-			['products','required'],
 				
+			['address','filter','filter'=>'trim'],
+			['address','required'],
+								
 			['city','filter','filter'=>'trim'],
 			['city','required'],
 			
@@ -67,10 +66,13 @@ class RegisterForm extends Model
     		['state','required'],	
 				
 			['country','filter','filter'=>'trim'],
-    		['country','required'],	
+    		['country','required'],
+				
+			['storename','filter','filter'=>'trim'],
+			['storename','required'],
 
-			['discription','filter','filter'=>'trim'],
-			['discription','required'],
+			['storeaddress','filter','filter'=>'trim'],
+			['storeaddress','required'],
 				
 		];
 	}
