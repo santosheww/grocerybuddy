@@ -7,7 +7,7 @@ use yii\web\view;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \frontend\models\RegisterForm */
 
-/** Register Form */
+
 
 $this->title = 'RegisterForm';
 $this->params['breadcrumbs'][] = $this->title;
