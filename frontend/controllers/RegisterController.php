@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\controllers;
 
 use Yii;
@@ -14,35 +15,28 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
-class RegisterController extends Controller
-{
+class RegisterController extends Controller {
 	/**
 	 * @inheritdoc
 	 */
-
-	public function actionRegister()
-	{
-	$model = new RegisterForm();
-	if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-		if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-			Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+	public function actionRegister() {
+		$model = new RegisterForm ();
+		if ($model->load ( Yii::$app->request->post () ) && $model->validate ()) {
+			
+			$registerStatus = $model->register();
+			
+			
 		} else {
-			Yii::$app->session->setFlash('error', 'There was an error sending email.');
-		}
+			return $this->render('register',[
+					'model'=>$model,
 	
-		return $this->refresh();
-	} else {
-return $this->render('register',[
-		'model'=>$model,
-		
-]);/** here registerform is from view*/
+			]);
+		}
 	}
-	}
-	public function actionTestlogin()
-	{
-		$model = new TestLogin();
-		if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-			if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+	public function actionTestlogin() {
+		$model = new TestLogin ();
+		if ($model->load ( Yii::$app->request->post () ) && $model->validate ()) {
+			if ($model->sendEmail ( Yii::$app->params ['adminEmail'] )) {
 				Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
 			} else {
 				Yii::$app->session->setFlash('error', 'There was an error sending email.');
@@ -55,7 +49,5 @@ return $this->render('register',[
 	
 			]);/** here registerform is from view*/
 		}
-	}
-	
-	
+	}	
 }
