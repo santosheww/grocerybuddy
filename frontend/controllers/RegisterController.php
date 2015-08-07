@@ -27,7 +27,7 @@ class RegisterController extends Controller {
 			
 			
 		} else {
-			return $this->render('register',[
+			return $this->render('registertest',[
 					'model'=>$model,
 	
 			]);
