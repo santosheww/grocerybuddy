@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\controllers;
 
 use Yii;
@@ -26,7 +27,7 @@ class RegisterController extends Controller {
 			
 			
 		} else {
-			return $this->render('register',[
+			return $this->render('registernew',[
 					'model'=>$model,
 	
 			]);
