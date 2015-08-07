@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=192.168.1.*;dbname=grocery_db',
+    'dsn' => 'mysql:host=localhost;dbname=grocery',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',

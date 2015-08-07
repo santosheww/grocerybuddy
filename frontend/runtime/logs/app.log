@@ -1,0 +1,2386 @@
+2015-08-05 13:50:50 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775450.42
+    'REQUEST_TIME' => 1438775450
+]
+2015-08-05 13:50:52 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55275'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775451.99
+    'REQUEST_TIME' => 1438775451
+]
+2015-08-05 13:50:52 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55277'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775452.32
+    'REQUEST_TIME' => 1438775452
+]
+2015-08-05 13:50:52 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55278'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775452.641
+    'REQUEST_TIME' => 1438775452
+]
+2015-08-05 13:50:52 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55276'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775452.842
+    'REQUEST_TIME' => 1438775452
+]
+2015-08-05 13:50:53 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775453.027
+    'REQUEST_TIME' => 1438775453
+]
+2015-08-05 13:50:53 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55286'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775453.197
+    'REQUEST_TIME' => 1438775453
+]
+2015-08-05 13:50:53 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55287'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775453.426
+    'REQUEST_TIME' => 1438775453
+]
+2015-08-05 13:50:53 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\models\ContactForm::sendEmail()' in D:\xampp\htdocs\grocery\frontend\models\ContactForm.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-08-05 13:50:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'kkmtoofbqk9u8sci71b7anqid6'
+    '_csrf' => '1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => 'PHPSESSID=kkmtoofbqk9u8sci71b7anqid6; _csrf=1f8ab1e2fd717f58933f24df9910b213ae423eba236185f9e2e999f6cf3c753fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jm8MFCC6zcUcHhYmvQiKF8Vox5CXEaD7%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '55288'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438775453.637
+    'REQUEST_TIME' => 1438775453
+]
+2015-08-06 09:50:32 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2database'' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(392): yii\db\Command->queryInternal('fetchAll', 7)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\mysql\Schema.php(308): yii\db\Command->queryColumn()
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#9 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\generators\model\Generator.php(151): yii\db\Schema->getTableNames()
+#10 [internal function]: yii\gii\generators\model\Generator->yii\gii\generators\model\{closure}()
+#11 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\components\ActiveField.php(41): call_user_func(Object(Closure))
+#12 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Object.php(107): yii\gii\components\ActiveField->init()
+#13 [internal function]: yii\base\Object->__construct(Array)
+#14 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#15 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\compone...', Array, Array)
+#16 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\gii\\compone...', Array, Array)
+#17 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\widgets\ActiveForm.php(281): yii\BaseYii::createObject(Array)
+#18 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\generators\model\form.php(6): yii\widgets\ActiveForm->field(Object(yii\gii\generators\model\Generator), 'tableName')
+#19 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#20 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#21 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\views\default\view.php(38): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array)
+#22 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#23 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#24 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(yii\gii\controllers\DefaultController))
+#25 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('view', Array, Object(yii\gii\controllers\DefaultController))
+#26 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(56): yii\base\Controller->render('view', Array)
+#27 [internal function]: yii\gii\controllers\DefaultController->actionView('model')
+#28 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#29 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#30 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#31 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii/default/vie...', Array)
+#32 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#33 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#34 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2database'' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(392): yii\db\Command->queryInternal('fetchAll', 7)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\mysql\Schema.php(308): yii\db\Command->queryColumn()
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Schema.php(228): yii\db\mysql\Schema->findTableNames('')
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\generators\model\Generator.php(151): yii\db\Schema->getTableNames()
+#8 [internal function]: yii\gii\generators\model\Generator->yii\gii\generators\model\{closure}()
+#9 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\components\ActiveField.php(41): call_user_func(Object(Closure))
+#10 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Object.php(107): yii\gii\components\ActiveField->init()
+#11 [internal function]: yii\base\Object->__construct(Array)
+#12 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#13 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\gii\\compone...', Array, Array)
+#14 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\gii\\compone...', Array, Array)
+#15 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\widgets\ActiveForm.php(281): yii\BaseYii::createObject(Array)
+#16 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\generators\model\form.php(6): yii\widgets\ActiveForm->field(Object(yii\gii\generators\model\Generator), 'tableName')
+#17 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#18 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#19 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\views\default\view.php(38): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array)
+#20 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(325): require('D:\\xampp\\htdocs...')
+#21 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#22 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(yii\gii\controllers\DefaultController))
+#23 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('view', Array, Object(yii\gii\controllers\DefaultController))
+#24 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(56): yii\base\Controller->render('view', Array)
+#25 [internal function]: yii\gii\controllers\DefaultController->actionView('model')
+#26 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#27 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#28 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('view', Array)
+#29 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii/default/vie...', Array)
+#30 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#31 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#32 {main}
+Additional Information:
+
+2015-08-06 09:50:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=gii'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51397'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438847431.795
+    'REQUEST_TIME' => 1438847431
+]
+2015-08-06 10:02:46 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\RegisterloginController' in file: D:\xampp\htdocs\grocery/frontend/controllers/RegisterloginController.php. Namespace missing?' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('registerlogin')
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('registerlogin')
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-08-06 10:02:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51596'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438848166.733
+    'REQUEST_TIME' => 1438848166
+]
+2015-08-06 10:04:07 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:04:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51609'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438848247.064
+    'REQUEST_TIME' => 1438848247
+]
+2015-08-06 10:54:58 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:54:57 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51890'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851297.964
+    'REQUEST_TIME' => 1438851297
+]
+2015-08-06 10:55:00 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51891'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851300.039
+    'REQUEST_TIME' => 1438851300
+]
+2015-08-06 10:55:01 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51893'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851301.158
+    'REQUEST_TIME' => 1438851301
+]
+2015-08-06 10:55:02 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:02 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51892'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851302.011
+    'REQUEST_TIME' => 1438851302
+]
+2015-08-06 10:55:02 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:02 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51896'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851302.579
+    'REQUEST_TIME' => 1438851302
+]
+2015-08-06 10:55:03 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851303.636
+    'REQUEST_TIME' => 1438851303
+]
+2015-08-06 10:55:19 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:19 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51900'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851319.516
+    'REQUEST_TIME' => 1438851319
+]
+2015-08-06 10:55:21 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51902'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851321.218
+    'REQUEST_TIME' => 1438851321
+]
+2015-08-06 10:55:21 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51901'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851321.655
+    'REQUEST_TIME' => 1438851321
+]
+2015-08-06 10:55:21 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51904'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851321.93
+    'REQUEST_TIME' => 1438851321
+]
+2015-08-06 10:55:22 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\xampp\htdocs\grocery\frontend\views\registerlogin\index.php' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\controllers\RegisterloginController))
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\RegisterloginController))
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterloginController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\RegisterloginController->actionIndex()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-06 10:55:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '51903'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438851322.225
+    'REQUEST_TIME' => 1438851322
+]
+2015-08-06 11:27:17 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "registerlogin".' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('registerlogin', Array)
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-06 11:27:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'registerlogin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'kkrebct'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '52119'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=registerlogin'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=registerlogin'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438853237.656
+    'REQUEST_TIME' => 1438853237
+]
+2015-08-06 14:47:43 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\RegisterForm::username' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\validators\FilterValidator.php(70): yii\base\Component->__get('username')
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\FilterValidator->validateAttribute(Object(frontend\models\RegisterForm), 'username')
+#2 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Model.php(351): yii\validators\Validator->validateAttributes(Object(frontend\models\RegisterForm), Array)
+#3 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(24): yii\base\Model->validate()
+#4 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#9 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-08-06 14:47:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438865263.48
+    'REQUEST_TIME' => 1438865263
+]
+2015-08-06 14:51:43 [::1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: frontend\models\RegisterForm::regiser()' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): yii\base\Component->__call('regiser', Array)
+#1 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->regiser()
+#2 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-08-06 14:51:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53180'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438865503.378
+    'REQUEST_TIME' => 1438865503
+]
+2015-08-06 14:56:32 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Connection::dsn cannot be empty.' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php:523
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(79): yii\db\Command->queryAll()
+#6 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#7 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#11 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#12 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2015-08-06 14:56:32 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53244'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438865792.612
+    'REQUEST_TIME' => 1438865792
+]
+2015-08-06 14:58:38 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: db' in D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php:79
+Stack trace:
+#0 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(79): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 79, Array)
+#1 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#2 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-08-06 14:58:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53273'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438865918.405
+    'REQUEST_TIME' => 1438865918
+]
+2015-08-06 15:02:31 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Connection::dsn cannot be empty.' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php:523
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(206): yii\db\Connection->getSlavePdo()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(819): yii\db\Command->prepare(true)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(79): yii\db\Command->queryAll()
+#6 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#7 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#11 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#12 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2015-08-06 15:02:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53301'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438866151.872
+    'REQUEST_TIME' => 1438866151
+]
+2015-08-06 15:02:56 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: db' in D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php:79
+Stack trace:
+#0 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(79): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 79, Array)
+#1 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#2 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-08-06 15:02:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53309'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438866176.558
+    'REQUEST_TIME' => 1438866176
+]
+2015-08-06 15:23:09 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: name' in D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php:78
+Stack trace:
+#0 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(78): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#2 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-08-06 15:23:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53475'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438867389.383
+    'REQUEST_TIME' => 1438867389
+]
+2015-08-06 15:23:38 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: password' in D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php:80
+Stack trace:
+#0 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(80): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 80, Array)
+#1 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#2 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#3 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-08-06 15:23:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53478'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438867418.296
+    'REQUEST_TIME' => 1438867418
+]
+2015-08-06 15:24:01 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pincode' in 'field list'' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php:771
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(771): PDOStatement->execute()
+#1 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(90): yii\db\Command->execute()
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pincode' in 'field list'
+The SQL being executed was: INSERT INTO `register` (`name`, `email`, `password`, `mobile`, `address`, `city`, `pincode`, `state`, `country`, `storename`, `storeaddress`) VALUES ('krishna', 'manasa@mailinator.com', '123456', '9874625689745', 'sdfsdf', 'sdfsdf', '521245', 'TS', 'India', 'sdfsd', 'sdfsdf')' in D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\db\Command.php(779): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `re...')
+#1 D:\xampp\htdocs\grocery\frontend\models\RegisterForm.php(90): yii\db\Command->execute()
+#2 D:\xampp\htdocs\grocery\frontend\controllers\RegisterController.php(26): frontend\models\RegisterForm->register()
+#3 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#4 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#7 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('register/regist...', Array)
+#8 D:\xampp\htdocs\grocery\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\grocery\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'pincode' in 'field list'
+)
+
+2015-08-06 15:24:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'LTJ3dGdTOFMcVxk4MRl9O2xVHSwLAWscfksOHSRhUhhOV0FESgZSYw=='
+    'RegisterForm' => [
+        'RegisterType' => '2'
+        'name' => 'krishna'
+        'email' => 'manasa@mailinator.com'
+        'password' => '123456'
+        'mobile' => '9874625689745'
+        'address' => 'sdfsdf'
+        'city' => 'sdfsdf'
+        'pincode' => '521245'
+        'state' => 'TS'
+        'country' => 'India'
+        'storename' => 'sdfsd'
+        'storeaddress' => 'sdfsdf'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qlqh008r6qpob8frepi9v11nt1'
+    '_csrf' => 'd5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1enLVJEhAgjXlRSOSyyiC2jKce60-Uj0\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/grocery/frontend/web/index.php?r=register%2Fregister'
+    'HTTP_COOKIE' => 'PHPSESSID=qlqh008r6qpob8frepi9v11nt1; _csrf=d5de9562b9ab3d51e184ed159fcedb9433da5f64d064759b0caf3c24de0c4ef3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221enLVJEhAgjXlRSOSyyiC2jKce60-Uj0%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '510'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Windows Live\\Shared;C:\\Program Files\\Skype\\Phone\\;D:\\xampp\\php;C:\\Users\\manasa\\AppData\\Local\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1m PHP/5.5.27'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/grocery/frontend/web/index.php'
+    'REMOTE_PORT' => '53485'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register%2Fregister'
+    'REQUEST_URI' => '/grocery/frontend/web/index.php?r=register%2Fregister'
+    'SCRIPT_NAME' => '/grocery/frontend/web/index.php'
+    'PHP_SELF' => '/grocery/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438867441.56
+    'REQUEST_TIME' => 1438867441
+]
