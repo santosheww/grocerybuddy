@@ -41,6 +41,14 @@ $config = [
                 ],
             ],
         ],
+    		
+    		'db' => [
+    				         'class' => '\yii\db\Connection',
+    				         'dsn' => 'mysql:host=localhost;dbname=grocery',
+    				         'username' => 'root',
+    				         'password' => '',
+    				         'charset' => 'utf8',
+    				     ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],

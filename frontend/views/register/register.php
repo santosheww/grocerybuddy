@@ -11,6 +11,7 @@ use yii\web\view;
 
 $this->title = 'RegisterForm';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="site-signup">
 
@@ -31,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
                <?= $form->field($model, 'mobile') ?>
                <?= $form->field($model, 'address') ?>
                <?= $form->field($model, 'city') ?>
-               <?= $form->field($model, 'pincode') ?>
+               <?= $form->field($model, 'zip') ?>
               <?php echo $form->field($model, 'state')->dropDownList(['AP' => 'AndhraPradesh', 'TS' => 'Telangana', 'KA' => 'Karnataka']); ?> 
                <?= $form->field($model, 'country') ?>
                <div class="vendor_data">

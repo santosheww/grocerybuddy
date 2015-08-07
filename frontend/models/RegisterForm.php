@@ -17,7 +17,7 @@ class RegisterForm extends Model
 	public $mobile;
 	public $address;
 	public $city;
-	public $pincode;
+	public $zip;
 	public $state;
 	public $country;
 	public $storename;
@@ -25,11 +25,6 @@ class RegisterForm extends Model
 
 	public function rules(){
 		return [
-				
-			['username', 'filter', 'filter'=>'trim'],
-			['username','required'],
-			['username','unique','targetClass'=>'\common\models\User','message'=>'User Name already Exists Try For New'],
-			['username','string','min'=>2, 'max'=>250],
 			
 				
 		    ['name', 'filter','filter'=>'trim'],
@@ -54,8 +49,8 @@ class RegisterForm extends Model
 			['city','filter','filter'=>'trim'],
 			['city','required'],
 			
-			['pincode','filter','filter'=>'trim'],
-			['pincode','required'],
+			['zip','filter','filter'=>'trim'],
+			['zip','required'],
 
 			['state','filter','filter'=>'trim'],
     		['state','required'],	
@@ -70,22 +65,31 @@ class RegisterForm extends Model
 			['storeaddress','required'],
 				
 		];
+		
+		
+		
+		
+		
 	}
 
 public function register()
     {
-        if ($this->validate()) {
-            $user = new User();
-            $user->username = $this->username;
-            $user->email = $this->email;
-            $user->setPassword($this->password);
-            $user->generateAuthKey();
-            if ($user->save()) {
-                return $user;
-            }
-        }
-
-        return null;
+    	$data = Yii::$app->db->createCommand()->insert('register', [
+    'name' => $this->name,
+    'email' => $this->email,
+    'password'=>$this->password,
+    'mobile'=>$this->mobile,	
+    'address'=>$this->address,
+    'city'=>$this->city,
+    'zip'=>$this->zip,
+    'state'=>$this->state,
+    'country'=>$this->country,
+    	'storename'=>$this->storename,
+    	'storeaddress'=>$this->storeaddress,   			
+    		
+])->execute();
+    	print_r($data);exit();
+        
     }
 }
 
