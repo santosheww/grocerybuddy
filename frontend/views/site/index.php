@@ -1,25 +1,21 @@
 <?php
 use bupy7\flexslider\FlexSlider;
-use kartik\date\DatePicker;
+
 /* @var $this yii\web\View */
 $this->title = 'My Yii Application';
 ?>
 
 <div class="site-index">
+	<div class="jumbotron">
+        <h1>Congratulations!</h1>
+
+        <p class="lead">You have successfully created your Yii-powered application.</p>
+
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+    </div>
+	
 
 	<div class="body-content">
-		<div id="slider" class="flexslider">
-			<ul class="slides">
-			<?php
-			echo FlexSlider::widget ( [
-					'items' => ['<img src="images/slides/banner.jpg">',
-							['content' => '<img src="images/slides/banner1.jpg">',
-									'options' => ['class' => 'my-class']
-									]
-							]
-					] );
-			?>
-			</ul>
 		</div>
 		<div class="container">
 			<div class="row">

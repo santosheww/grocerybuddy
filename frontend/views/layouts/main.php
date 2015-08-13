@@ -27,15 +27,7 @@ AppAsset::register ( $this );
     <div class="container">
 		<div class="row">
 			<div class="top_right">
-				<?php echo DatePicker::widget([
-    'name' => 'check_issue_date', 
-    'value' => date('d-M-Y', strtotime('+2 days')),
-    'options' => ['placeholder' => 'Select issue date ...'],
-    'pluginOptions' => [
-        'format' => 'dd-M-yyyy',
-        'todayHighlight' => true
-    ]
-]); ?>
+				
 			</div>
 			<div class="top_left">
       <?php
