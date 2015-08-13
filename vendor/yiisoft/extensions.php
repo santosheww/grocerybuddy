@@ -66,13 +66,13 @@ return array (
       '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient',
     ),
   ),
-  'bupy7/yii2-flexslider' => 
+  'kop/yii2-conditional-validator' => 
   array (
-    'name' => 'bupy7/yii2-flexslider',
+    'name' => 'kop/yii2-conditional-validator',
     'version' => '9999999-dev',
     'alias' => 
     array (
-      '@bupy7/flexslider' => $vendorDir . '/bupy7/yii2-flexslider',
+      '@kop/y2cv' => $vendorDir . '/kop/yii2-conditional-validator',
     ),
   ),
 );

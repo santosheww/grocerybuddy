@@ -991,49 +991,52 @@
         "installation-source": "dist"
     },
     {
-        "name": "bupy7/yii2-flexslider",
+        "name": "kop/yii2-conditional-validator",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/bupy7/yii2-flexslider.git",
-            "reference": "85cd873aa0440c6afd1052ac3959212f23d59ba1"
+            "url": "https://github.com/kop/yii2-conditional-validator.git",
+            "reference": "36fc00f94e9f7d7dc2929d5fa88486a16252ba8d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/bupy7/yii2-flexslider/zipball/85cd873aa0440c6afd1052ac3959212f23d59ba1",
-            "reference": "85cd873aa0440c6afd1052ac3959212f23d59ba1",
+            "url": "https://api.github.com/repos/kop/yii2-conditional-validator/zipball/36fc00f94e9f7d7dc2929d5fa88486a16252ba8d",
+            "reference": "36fc00f94e9f7d7dc2929d5fa88486a16252ba8d",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.4.0"
+            "php": ">=5.4.0",
+            "yiisoft/yii2": "*"
         },
-        "time": "2015-02-13 16:12:30",
+        "time": "2014-12-02 20:55:27",
         "type": "yii2-extension",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "bupy7\\flexslider\\": ""
+                "kop\\y2cv\\": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "BSD 3-Clause"
+            "MIT"
         ],
         "authors": [
             {
-                "name": "Vasilij Belosludcev",
-                "email": "bupy765@gmail.com",
-                "homepage": "http://mihaly4.ru"
+                "name": "Ivan Koptiev",
+                "email": "ikoptev@gmail.com",
+                "role": "Developer"
             }
         ],
-        "description": "This is widget wrapper of Flexslider https://github.com/woothemes/FlexSlider for Yii2.",
-        "homepage": "https://github.com/bupy7/yii2-flexslider",
+        "description": "If-then validation rules for Yii2 Framework",
+        "homepage": "http://kop.github.io/yii2-conditional-validator/",
         "keywords": [
-            "extension",
-            "flexslider",
-            "widget",
+            "conditional",
+            "validation",
+            "validator",
+            "yii",
             "yii2"
-        ]
+        ],
+        "abandoned": true
     }
 ]
