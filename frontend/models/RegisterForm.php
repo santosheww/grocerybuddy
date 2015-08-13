@@ -1,7 +1,7 @@
 <?php
 namespace frontend\models;
 
-use common\models\User;
+
 use yii\base\Model;
 use Yii;
 
@@ -74,21 +74,34 @@ class RegisterForm extends Model
 
 public function register()
     {
+    	
+    	$userInfo = Yii::$app->db->createCommand()->insert('user', [
+    			'name' => $this->name,
+    			'password_hash' => $this->password,
+    			'password_reset_token'=>$this->password,
+    			'email'=>$this->email,
+    			'auth_key'=>'',
+    			'status'=>1,
+    			'created_at'=>1,
+    			'updated_at'=>1,
+    			'password'=>$this->password,
+    	])->execute();
+    	$lastInsertId = Yii::$app->db->getLastInsertID();
     	$data = Yii::$app->db->createCommand()->insert('register', [
-    'name' => $this->name,
-    'email' => $this->email,
-    'password'=>$this->password,
-    'mobile'=>$this->mobile,	
-    'address'=>$this->address,
-    'city'=>$this->city,
-    'zip'=>$this->zip,
-    'state'=>$this->state,
-    'country'=>$this->country,
-    	'storename'=>$this->storename,
-    	'storeaddress'=>$this->storeaddress,   			
-    		
-])->execute();
-    	print_r($data);exit();
+		    	'uId' => $lastInsertId,
+			    'registerId' => $lastInsertId,
+			    'mobile'=>$this->mobile,	
+			    'address'=>$this->address,
+			    'city'=>$this->city,
+		    	'state'=>$this->state,
+		    	'country'=>$this->country,
+			    'zip'=>$this->zip,	    
+			    'storeName'=>$this->storename,
+			    'storeAddress'=>$this->storeaddress,      		
+		])->execute();
+    	
+    	return $data;
+    
         
     }
 }

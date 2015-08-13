@@ -24,14 +24,23 @@ class RegisterController extends Controller {
 		if ($model->load ( Yii::$app->request->post () ) && $model->validate ()) {
 			
 			$registerStatus = $model->register();
+			Yii::$app->getSession()->setFlash('success', [
+					'type' => 'success',
+					'duration' => 10000,
+					'icon' => 'fa fa-info',
+					'message' => ' Created Successfully',
+					'title' => 'Register',
+					'positonY' => 'top',
+					'positonX' => 'left'
+			]);
 			
 			
-		} else {
-			return $this->render('register--',[
+		} 
+			return $this->render('register',[
 					'model'=>$model,
 	
 			]);
-		}
+		
 	}
 	public function actionTestlogin() {
 		$model = new TestLogin ();
