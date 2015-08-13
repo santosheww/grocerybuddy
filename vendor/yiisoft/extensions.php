@@ -66,4 +66,13 @@ return array (
       '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient',
     ),
   ),
+  'bupy7/yii2-flexslider' => 
+  array (
+    'name' => 'bupy7/yii2-flexslider',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@bupy7/flexslider' => $vendorDir . '/bupy7/yii2-flexslider',
+    ),
+  ),
 );

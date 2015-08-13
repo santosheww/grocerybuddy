@@ -27,7 +27,7 @@ AppAsset::register ( $this );
     <div class="container">
 		<div class="row">
 			<div class="top_right">
-				
+				<?php echo "Thursday"; ?>
 			</div>
 			<div class="top_left">
       <?php

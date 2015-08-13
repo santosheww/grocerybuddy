@@ -16,5 +16,6 @@ return array(
     'yii\\authclient\\' => array($vendorDir . '/yiisoft/yii2-authclient'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
+    'bupy7\\flexslider\\' => array($vendorDir . '/bupy7/yii2-flexslider'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
 );
