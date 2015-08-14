@@ -61,14 +61,7 @@ class RegisterForm extends Model
     		['country','required'],
 				
 			
-			[['RegisterType'], ConditionalValidator::className(),
-			'if' => [
-					[['RegisterType'], 'compare', 'compareValue' => 2]
-			],
-			'then' => [
-					[['storename', 'storeaddress'], 'required']
-			]
-			]
+			
 				
 		];
 		
