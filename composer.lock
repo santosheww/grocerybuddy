@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd2edd39fdd94c990be548cb7780d3a2",
+    "hash": "30f711984c32628409e9a1ee2c96de66",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -211,6 +211,50 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "bupy7/yii2-flexslider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bupy7/yii2-flexslider.git",
+                "reference": "85cd873aa0440c6afd1052ac3959212f23d59ba1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bupy7/yii2-flexslider/zipball/85cd873aa0440c6afd1052ac3959212f23d59ba1",
+                "reference": "85cd873aa0440c6afd1052ac3959212f23d59ba1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bupy7\\flexslider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Vasilij Belosludcev",
+                    "email": "bupy765@gmail.com",
+                    "homepage": "http://mihaly4.ru"
+                }
+            ],
+            "description": "This is widget wrapper of Flexslider https://github.com/woothemes/FlexSlider for Yii2.",
+            "homepage": "https://github.com/bupy7/yii2-flexslider",
+            "keywords": [
+                "extension",
+                "flexslider",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-02-13 16:12:30"
         },
         {
             "name": "cebe/markdown",
@@ -1010,7 +1054,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "kop/yii2-conditional-validator": 20
+        "kop/yii2-conditional-validator": 20,
+        "bupy7/yii2-flexslider": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -19,7 +19,8 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "yiisoft/yii2-authclient": "^2.0",
-        "kop/yii2-conditional-validator": "dev-master"
+        "kop/yii2-conditional-validator": "dev-master",
+        "bupy7/yii2-flexslider": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

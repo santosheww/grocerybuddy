@@ -75,4 +75,13 @@ return array (
       '@kop/y2cv' => $vendorDir . '/kop/yii2-conditional-validator',
     ),
   ),
+  'bupy7/yii2-flexslider' => 
+  array (
+    'name' => 'bupy7/yii2-flexslider',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@bupy7/flexslider' => $vendorDir . '/bupy7/yii2-flexslider',
+    ),
+  ),
 );
