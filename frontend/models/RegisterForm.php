@@ -4,6 +4,8 @@ namespace frontend\models;
 
 use yii\base\Model;
 use Yii;
+use kop;
+
 
 /**
  * registermodel
@@ -58,11 +60,15 @@ class RegisterForm extends Model
 			['country','filter','filter'=>'trim'],
     		['country','required'],
 				
-			['storename','filter','filter'=>'trim'],
-			['storename','required'],
-
-			['storeaddress','filter','filter'=>'trim'],
-			['storeaddress','required'],
+			
+			[['RegisterType'], ConditionalValidator::className(),
+			'if' => [
+					[['RegisterType'], 'compare', 'compareValue' => 2]
+			],
+			'then' => [
+					[['storename', 'storeaddress'], 'required']
+			]
+			]
 				
 		];
 		
