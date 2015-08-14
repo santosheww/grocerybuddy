@@ -17,5 +17,6 @@ return array(
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
     'kop\\y2cv\\' => array($vendorDir . '/kop/yii2-conditional-validator'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
+    'bupy7\\flexslider\\' => array($vendorDir . '/bupy7/yii2-flexslider'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
 );
