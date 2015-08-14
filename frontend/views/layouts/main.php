@@ -108,23 +108,53 @@ NavBar::begin ( [ ]
  );
 $menuItems = [ 
 		[ 
-				'label' => 'Home',
+				'label' => 'HOME',
 				'url' => [ 
 						'/site/index' 
 				] 
 		],
 		[ 
-				'label' => 'About',
+				'label' => 'STORELOCATOR',
 				'url' => [ 
 						'/site/about' 
 				] 
 		],
 		[ 
-				'label' => 'Contact',
+				'label' => 'MY REWORDS',
 				'url' => [ 
 						'/site/contact' 
 				] 
-		] 
+		] ,
+		[
+		      'label' => 'MY LIST',
+		      'url' => [
+				      '/site/about'
+		]
+		],
+		[
+		      'label' => 'MY STOREOFFERS',
+		      'url' => [
+				   '/site/about'
+		]
+		],
+		[
+		'label' => 'GB DICTiONARY',
+		'url' => [
+				'/site/about'
+		]
+		],
+		[
+		'label' => 'FAQS',
+		'url' => [
+				'/site/about'
+		]
+		],
+		[
+		'label' => 'VENDOR OPTIONS',
+		'url' => [
+				'/site/about'
+		]
+		],
 ];
 
 echo Nav::widget ( [ 
