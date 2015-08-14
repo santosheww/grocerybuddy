@@ -5,7 +5,7 @@ use kartik\date\DatePicker;
 $this->title = 'My Yii Application';
 ?>
 
-
+<div class="site-index">
 <div id="slider" class="flexslider">
 			<ul class="slides">
 			<?php
@@ -19,7 +19,7 @@ $this->title = 'My Yii Application';
 			?>
 			</ul>
 		</div>
-<div class="site-index">
+
 	<div class="body-content">
 		
 		<div class="container">
