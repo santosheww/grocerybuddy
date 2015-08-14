@@ -59,7 +59,17 @@ class RegisterForm extends Model
 				
 			['country','filter','filter'=>'trim'],
     		['country','required'],
-				
+			
+			['storename', 'required', 'when' => function ($model) {
+				return $model->RegisterType == 2;
+			}, 'whenClient' => "function (attribute, value) {
+        return $('input:radio[name=\"RegisterForm[RegisterType]\"]:checked').val() == 2;
+    }"],
+    ['storeaddress', 'required', 'when' => function ($model) {
+    	return $model->RegisterType == 2;
+    }, 'whenClient' => "function (attribute, value) {			
+        return $('input:radio[name=\"RegisterForm[RegisterType]\"]:checked').val() == 2;
+    }"],
 			
 			
 				

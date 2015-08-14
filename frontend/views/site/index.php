@@ -3,9 +3,7 @@ use bupy7\flexslider\FlexSlider;
 use kartik\date\DatePicker;
 /* @var $this yii\web\View */
 $this->title = 'My Yii Application';
-?>
-
-
+?></div>
 <div id="slider" class="flexslider">
 			<ul class="slides">
 			<?php
@@ -19,7 +17,9 @@ $this->title = 'My Yii Application';
 			?>
 			</ul>
 		</div>
+
 <div class="site-index">
+
 	<div class="body-content">
 		
 		<div class="container">
