@@ -3,9 +3,13 @@ use bupy7\flexslider\FlexSlider;
 use kartik\date\DatePicker;
 /* @var $this yii\web\View */
 $this->title = 'My Yii Application';
+<<<<<<< HEAD
 ?>
 
 <div class="site-index">
+=======
+?></div>
+>>>>>>> branch 'develop' of https://github.com/ewwgit/grocerybuddy
 <div id="slider" class="flexslider">
 			<ul class="slides">
 			<?php
@@ -20,6 +24,11 @@ $this->title = 'My Yii Application';
 			</ul>
 		</div>
 
+<<<<<<< HEAD
+=======
+<div class="site-index">
+
+>>>>>>> branch 'develop' of https://github.com/ewwgit/grocerybuddy
 	<div class="body-content">
 		
 		<div class="container">
