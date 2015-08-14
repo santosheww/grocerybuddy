@@ -49,6 +49,7 @@ $config = [
     				         'password' => '',
     				         'charset' => 'utf8',
     				     ],
+    		
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
