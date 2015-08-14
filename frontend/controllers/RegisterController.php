@@ -14,6 +14,8 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use yii\helpers\Url;
+
 
 class RegisterController extends Controller {
 	/**
@@ -24,15 +26,12 @@ class RegisterController extends Controller {
 		if ($model->load ( Yii::$app->request->post () ) && $model->validate ()) {
 			
 			$registerStatus = $model->register();
+			//Yii::$app->getSession()->setFlash('your registration has completed successfully');
 			Yii::$app->getSession()->setFlash('success', [
-					'type' => 'success',
-					'duration' => 10000,
-					'icon' => 'fa fa-info',
-					'message' => ' Created Successfully',
-					'title' => 'Register',
-					'positonY' => 'top',
-					'positonX' => 'left'
+					'message' => ' your registration has completed successfully',
 			]);
+			/* $url = Url::to(['site/login']);
+			$this->redirect($url); */
 			
 			
 		} 
