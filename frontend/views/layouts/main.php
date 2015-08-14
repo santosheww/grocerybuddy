@@ -108,7 +108,7 @@ NavBar::begin ( [ ]
  );
 $menuItems = [ 
 		[ 
-				'label' => 'HOME',
+				'label' => 'Home',
 				'url' => [ 
 						'/site/index' 
 				] 
