@@ -134,7 +134,7 @@ $menuItems = [
 		]
 		],
 		[
-		'label' => 'GB DICTiONARY',
+		'label' => 'GB DICTIONARY',
 		'url' => [
 				'/site/about'
 		]
