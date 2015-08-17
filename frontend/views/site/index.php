@@ -235,3 +235,9 @@ $this->title = 'My Yii Application';
 </script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/jquery.min.js" type="text/javascript"></script>
+<style>
+
+.navbar{
+margin-bottom:0px !important;
+}
+</style>
