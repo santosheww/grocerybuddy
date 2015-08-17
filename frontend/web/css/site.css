@@ -155,7 +155,7 @@ font-family: Calibri, Arial;
 }
 .top_left ul li a {
 	text-align: center;
-	padding: 0px 2px;
+	padding: 0px 10px;
 	font-size: 15px;
 	color: #ffffff;
 	-webkit-transition: all 0.3s ease-in-out;
