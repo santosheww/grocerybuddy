@@ -25,188 +25,197 @@ $this->title = 'My Yii Application';
 	<div class="body-content">
 		
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="left-sidebar">
-						<div class="shipping text-center">
-							<!--shipping-->
-							<img src="images/home/shipping1.jpg" alt="" />
-						</div>
-						<!--/shipping-->
-						<div class="shipping text-center">
-							<!--shipping-->
-							<img src="images/home/shipping.jpg" alt="" />
-						</div>
-						<!--/shipping-->
-
-					</div>
-				</div>
-				<div class="col-sm-9 padding-right">
-					<div class="features_items">
-						<!--features_items-->
-
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/home/product1.jpg" alt="" />
-										<h2>GROCERY STORE NAME</h2>
-										<p>
-											Sale Items <span class="no">25</span>
-										</p>
-										<a href="#" class="btn btn-default add-to-cart">Store Location</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<p>
-												Sale Items <span class="nm">25</span>
-											</p>
-											<a href="#" class="btn btn-default add-to-cart">Store
-												Location</a>
-										</div>
-									</div>
-									<p class="new">
-										10%<br /> Off
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/home/product2.jpg" alt="" />
-										<h2>GROCERY STORE NAME</h2>
-										<p>
-											Sale Items <span class="no">50</span>
-										</p>
-										<a href="#" class="btn btn-default add-to-cart">Store Location</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<p>
-												Sale Items <span class="nm">50</span>
-											</p>
-											<a href="#" class="btn btn-default add-to-cart">Store
-												Location</a>
-										</div>
-									</div>
-									<p class="new">
-										10%<br /> Off
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/home/product3.jpg" alt="" />
-										<h2>GROCERY STORE NAME</h2>
-										<p>
-											Sale Items <span class="no">05</span>
-										</p>
-										<a href="#" class="btn btn-default add-to-cart">Store Location</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<p>
-												Sale Items <span class="nm">05</span>
-											</p>
-											<a href="#" class="btn btn-default add-to-cart">Store
-												Location</a>
-										</div>
-									</div>
-									<p class="new">
-										10%<br /> Off
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/home/product1.jpg" alt="" />
-										<h2>GROCERY STORE NAME</h2>
-										<p>
-											Sale Items <span class="no">25</span>
-										</p>
-										<a href="#" class="btn btn-default add-to-cart">Store Location</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<p>
-												Sale Items <span class="nm">25</span>
-											</p>
-											<a href="#" class="btn btn-default add-to-cart">Store
-												Location</a>
-										</div>
-									</div>
-									<p class="new">
-										10%<br /> Off
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/home/product2.jpg" alt="" />
-										<h2>GROCERY STORE NAME</h2>
-										<p>
-											Sale Items <span class="no">50</span>
-										</p>
-										<a href="#" class="btn btn-default add-to-cart">Store Location</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<p>
-												Sale Items <span class="nm">50</span>
-											</p>
-											<a href="#" class="btn btn-default add-to-cart">Store
-												Location</a>
-										</div>
-									</div>
-									<p class="new">
-										10%<br /> Off
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="product-image-wrapper">
-								<div class="single-products">
-									<div class="productinfo text-center">
-										<img src="images/home/product3.jpg" alt="" />
-										<h2>GROCERY STORE NAME</h2>
-										<p>
-											Sale Items <span class="no">05</span>
-										</p>
-										<a href="#" class="btn btn-default add-to-cart">Store Location</a>
-									</div>
-									<div class="product-overlay">
-										<div class="overlay-content">
-											<p>
-												Sale Items <span class="nm">25</span>
-											</p>
-											<a href="#" class="btn btn-default add-to-cart">Store
-												Location</a>
-										</div>
-									</div>
-									<p class="new">
-										10%<br /> Off
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--features_items-->
-
-				</div>
-			</div>
-		</div>
+  <div class="row">
+  <!-------SIDE BAR-->
+    <div class="col-sm-3">
+      <div class="left-sidebar">
+        <div class="shipping text-center"><!--shipping--> 
+          <img src="images/home/shipping1.jpg" alt=""  class="img-responsive"/> </div>
+        <!--/shipping-->
+        <div class="shipping text-center"><!--shipping--> 
+          <img src="images/home/shipping.jpg" alt="" class="img-responsive" /> </div>
+        <!--/shipping--> 
+        
+      </div>
+    </div>
+      <!-------SIDE BAR-->
+      
+    <!--features_items-->
+    <div class="col-sm-9 padding-right">
+      <div class="features_items">
+        
+        
+        <!--product 1--><div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product1.jpg" alt="" class="img-responsive"/>
+                <h2>GROCERY STORE NAME</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 1-->
+        
+        
+         <!--product 2--> <div class="col-sm-6 col-md-3 ">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product2.jpg" alt="" class="img-responsive" />
+                <h2>GROCERY STORE NAME</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 2-->
+     
+         <!--product 3-->
+         <div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product3.jpg" alt="" class="img-responsive"/>
+                <h2>GROCERY STORE NAME</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 3-->
+        
+        
+        <!--product 4-->  <div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product4.jpg" alt="" class="img-responsive"/>
+                <h2>FRESHCO. </h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 4-->
+      
+        
+      <!--product 5-->    <div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product5.jpg" alt="" class="img-responsive" />
+                <h2>MEGA</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 5-->
+        
+        
+        
+         <!--product 6--> <div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product1.jpg" alt="" class="img-responsive" />
+                <h2>GROCERY STORE NAME</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 6-->
+        
+        
+      <!--product 7-->    <div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product1.jpg" alt="" class="img-responsive" />
+                <h2>GROCERY STORE NAME</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 7-->
+        
+       <!--product 8-->   <div class="col-sm-6 col-md-3">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center"> <img src="images/home/product1.jpg" alt=""  class="img-responsive"/>
+                <h2>GROCERY STORE NAME</h2>
+                <p>Sale Items <span class="no">25</span></p>
+                <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              <div class="product-overlay">
+                <div class="overlay-content">
+                  <p>Sale Items <span class="nm">25</span></p>
+                  <a href="#" class="btn btn-default add-to-cart">Store Location</a> </div>
+              </div>
+              <p class="new" >10%<br/>
+                Off</p>
+            </div>
+          </div>
+        </div>
+       <!--product 8-->
+        
+        
+        
+        
+        
+        
+        
+        
+    
+      </div> <!--features_item end-->
+    </div><!--col-sm-9 end-->
+  </div><!--row end-->
+</div>
 	</div>
 </div>
 <script>$(document).ready(function(){

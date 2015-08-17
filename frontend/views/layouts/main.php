@@ -23,14 +23,16 @@ AppAsset::register ( $this );
 </head>
 <body>
     <?php $this->beginBody()?>
-    <div class="top_bg">
-    <div class="container">
-		<div class="row">
-			<div class="top_right">
-				<?php echo "Thursday"; ?>
-			</div>
-			<div class="top_left">
-      <?php
+	<div class="top_bg">
+  <div class="container">
+    <div class="row">
+      <div class="top_right">
+        <ul>
+          <li>Saturday,  25/ 04 / 2015</li>
+        </ul>
+      </div>
+      <div class="top_left">
+        <?php
       if (Yii::$app->user->isGuest) {
       	$menuItems [] = [
       			'label' => 'Sign Up',
@@ -63,40 +65,34 @@ AppAsset::register ( $this );
 						]);
       		?>
       </div>
-
-		</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
-	<div class="header_top">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="logo">
-						<a href="../web"><img src="images/logo.png"></a>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="search">
-						<form>
-							<input type="text" value="" placeholder="Search for sale item"> <input
-								type="submit" value="">
-						</form>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="right-side">
-						<div class="rewards">
-							<a href="#"><img src="images/rewards.png">Earn more Rewards</a>
-						</div>
-						<div class="store">
-							<a href="#"><img src="images/store.png">Do you own Store?</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+</div>
+<div class="header_top">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="grocery buddy" class="img-responsive"></a></div>
+      </div>
+      <div class="col-sm-6">
+        <div class="search">
+          <form>
+            <input type="text" value="" placeholder="Search for store">
+            <input type="submit" value="">
+          </form>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="right-side">
+          <div class="rewards"><a href="#"><img src="images/rewards.png" >Earn more Rewards</a></div>
+          <div class="store"><a href="#"><img src="images/store.png" >Do you own Store?</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="clearfix"> </div>
 <?php
 NavBar::begin ( [ ]
 // 'brandLabel' => Html::img ( 'images/logo.png' ),
