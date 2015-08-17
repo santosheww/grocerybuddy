@@ -73,7 +73,7 @@ AppAsset::register ( $this );
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
-        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="grocery buddy" class="img-responsive"></a></div>
+        <div class="logo"><a href="index.php"><img src="images/logo.png" alt="" title="grocery buddy" class="img-responsive"></a></div>
       </div>
       <div class="col-sm-6">
         <div class="search">
