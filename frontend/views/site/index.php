@@ -63,8 +63,7 @@ $this->title = 'My Yii Application';
           </div>
         </div>
        <!--product 1-->
-        
-        
+             
          <!--product 2--> <div class="col-sm-6 col-md-3 ">
           <div class="product-image-wrapper">
             <div class="single-products">
@@ -103,8 +102,7 @@ $this->title = 'My Yii Application';
           </div>
         </div>
        <!--product 3-->
-        
-        
+             
         <!--product 4-->  <div class="col-sm-6 col-md-3">
           <div class="product-image-wrapper">
             <div class="single-products">
@@ -123,8 +121,7 @@ $this->title = 'My Yii Application';
           </div>
         </div>
        <!--product 4-->
-      
-        
+             
       <!--product 5-->    <div class="col-sm-6 col-md-3">
           <div class="product-image-wrapper">
             <div class="single-products">
@@ -143,9 +140,7 @@ $this->title = 'My Yii Application';
           </div>
         </div>
        <!--product 5-->
-        
-        
-        
+             
          <!--product 6--> <div class="col-sm-6 col-md-3">
           <div class="product-image-wrapper">
             <div class="single-products">

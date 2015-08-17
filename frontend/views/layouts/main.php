@@ -73,7 +73,22 @@ AppAsset::register ( $this );
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
-        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title="grocery buddy" class="img-responsive"></a></div>
+        <div class="logo"><?php
+        $logoImg = Html::img('/images/logo.png');
+        NavBar::begin([
+            'brandLabel' => $logoImg,
+            'brandUrl' => [
+                '/site/index'
+            ],
+            'brandOptions' => [
+                'class' => ''
+            ],
+            'options' => [
+                'class' => 'navbar-inverse navbar-fixed-top',
+                'id' => 'mainheader'
+            ]
+        ]);
+        ?></div>
       </div>
       <div class="col-sm-6">
         <div class="search">
