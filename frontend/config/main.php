@@ -21,9 +21,9 @@ $config = [
 										'class' => 'yii\authclient\clients\Facebook',
 										'clientId' => '382212061976487',
 										'clientSecret' => '40a84af208af9e80c2f8c425b001abf6' 
-								]
-								 
-						] 
+								] 
+						]
+						 
 				],
 				'user' => [ 
 						'identityClass' => 'common\models\User',
@@ -42,10 +42,10 @@ $config = [
 				],
 				
 				'db' => [ 
-						'class' => '\yii\db\Connection',
-						'dsn' => 'mysql:host=localhost;dbname=expertes_grocery',
-						'username' => 'expertes_grocery',
-						'password' => '!CS@mxLZo1Wk',
+						'class' => 'yii\db\Connection',
+						'dsn' => 'mysql:host=localhost;dbname=grocery',
+						'username' => 'root',
+						'password' => '',
 						'charset' => 'utf8' 
 				],
 				
