@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
     '2' => 'Vendor',
 ));
 ?>
-               <?= $form->field($model, 'name') ?>
+               <?= $form->field($model, 'username') ?>
                <?= $form->field($model, 'email') ?>
                <?= $form->field($model, 'password')->passwordInput() ?>
                <?= $form->field($model, 'mobile') ?>

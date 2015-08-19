@@ -3,6 +3,7 @@ namespace frontend\models;
 
 
 use yii\base\Model;
+use common\models\User;
 use Yii;
 use kop;
 
@@ -13,7 +14,7 @@ use kop;
 class RegisterForm extends Model
 {
 	public $RegisterType=3;
-	public $name;
+	public $username;
 	public $email;
 	public $password;
 	public $mobile;
@@ -29,10 +30,10 @@ class RegisterForm extends Model
 		return [
 			
 				
-		    ['name', 'filter','filter'=>'trim'],
-			['name','required'],
-			['name','unique','targetClass'=>'\common\models\User','message'=>'vedor Name already Exists Try For New'],
-			['name','string','min'=>2, 'max'=>250],
+		    ['username', 'filter','filter'=>'trim'],
+			['username','required'],
+			['username','unique','targetClass'=>'\common\models\User','message'=>'vedor Name already Exists Try For New'],
+			['username','string','min'=>2, 'max'=>250],
 				
 			['email','filter','filter'=>'trim'],
 			['email','required'],
@@ -83,14 +84,15 @@ class RegisterForm extends Model
 
 public function register()
     {
-    	
+    	$userModel = new User();
+    	$userModel->setPassword($this->password);
     	$userInfo = Yii::$app->db->createCommand()->insert('user', [
-    			'name' => $this->name,
-    			'password_hash' => $this->password,
+    			'username' => $this->username,
+    			'password_hash' => $userModel->password_hash,
     			'password_reset_token'=>$this->password,
     			'email'=>$this->email,
     			'auth_key'=>'',
-    			'status'=>1,
+    			'status'=>10,
     			'created_at'=>1,
     			'updated_at'=>1,
     			'password'=>$this->password,
