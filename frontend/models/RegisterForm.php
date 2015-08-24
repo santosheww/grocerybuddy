@@ -116,8 +116,6 @@ public function register()
 			    'storeAddress'=>$this->storeaddress, 
     			'imageFile' => $filePath,
 		])->execute();
-    	
-    	
     	return $data;
     
         
