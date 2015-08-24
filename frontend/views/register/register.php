@@ -2,6 +2,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\web\view;
+use kartik\file\FileInput;
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
@@ -18,7 +19,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="row">
         <div class="col-lg-5">
         
-     <?php $form = ActiveForm::begin(['id' => 'register-form']); ?>
+     <?php $form = ActiveForm::begin([
+    'options'=>['enctype'=>'multipart/form-data'] // important
+]); ?>
     
     
      <?php echo $form->field($model, 'RegisterType')->radioList(array(
@@ -35,6 +38,11 @@ $this->params['breadcrumbs'][] = $this->title;
                <?= $form->field($model, 'zip')?>
               <?php echo $form->field($model, 'state')->dropDownList(['AP' => 'AndhraPradesh', 'TS' => 'Telangana', 'KA' => 'Karnataka']); ?> 
                <?= $form->field($model, 'country') ?>
+               
+                <?=  $form->field($model, 'profileImage')->widget(FileInput::classname(), [
+    'options' => ['accept' => 'image/*'],
+]);
+?>
                <div class="vendor_data">
                <?= $form->field($model, 'storename') ?>
                <?= $form->field($model, 'storeaddress') ?></div>

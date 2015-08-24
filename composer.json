@@ -20,7 +20,10 @@
         "yiisoft/yii2-swiftmailer": "*",
         "yiisoft/yii2-authclient": "^2.0",
         "kop/yii2-conditional-validator": "dev-master",
-        "bupy7/yii2-flexslider": "dev-master"
+        "bupy7/yii2-flexslider": "dev-master",
+        "2amigos/yii2-file-upload-widget": "~1.0",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "arogachev/yii2-excel": "^0.1.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

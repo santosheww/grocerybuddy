@@ -4,6 +4,7 @@ namespace frontend\models;
 
 use yii\base\Model;
 use common\models\User;
+use yii\web\UploadedFile;
 use Yii;
 use kop;
 
@@ -24,7 +25,8 @@ class RegisterForm extends Model
 	public $state;
 	public $country;
 	public $storename;
-	public $storeaddress;	
+	public $storeaddress;
+	public $profileImage;
 
 	public function rules(){
 		return [
@@ -61,6 +63,7 @@ class RegisterForm extends Model
 			['country','filter','filter'=>'trim'],
     		['country','required'],
 			
+			
 			['storename', 'required', 'when' => function ($model) {
 				return $model->RegisterType == 2;				
 			}, 'whenClient' => "function (attribute, value) {
@@ -85,6 +88,7 @@ class RegisterForm extends Model
 public function register()
     {
     	$userModel = new User();
+    	print_r($_FILES['profileImage']);exit();
     	$userModel->setPassword($this->password);
     	$userInfo = Yii::$app->db->createCommand()->insert('user', [
     			'username' => $this->username,
@@ -110,6 +114,7 @@ public function register()
 			    'storeName'=>$this->storename,
 			    'storeAddress'=>$this->storeaddress,      		
 		])->execute();
+    	print_r($data);exit();
     	
     	return $data;
     
