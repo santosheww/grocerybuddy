@@ -39,10 +39,11 @@ $this->params['breadcrumbs'][] = $this->title;
               <?php echo $form->field($model, 'state')->dropDownList(['AP' => 'AndhraPradesh', 'TS' => 'Telangana', 'KA' => 'Karnataka']); ?> 
                <?= $form->field($model, 'country') ?>
                
-                <?=  $form->field($model, 'profileImage')->widget(FileInput::classname(), [
+               
+
+ <?= $form->field($model, 'imageFile')->widget(FileInput::classname(), [
     'options' => ['accept' => 'image/*'],
-]);
-?>
+]); ?>
                <div class="vendor_data">
                <?= $form->field($model, 'storename') ?>
                <?= $form->field($model, 'storeaddress') ?></div>

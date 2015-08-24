@@ -15,6 +15,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\helpers\Url;
+use yii\web\UploadedFile;
 
 
 class RegisterController extends Controller {
@@ -24,7 +25,7 @@ class RegisterController extends Controller {
 	public function actionRegister() {
 		$model = new RegisterForm ();
 		if ($model->load ( Yii::$app->request->post () ) && $model->validate ()) {
-			
+			$model->imageFile = UploadedFile::getInstance($model, 'imageFile');
 			$registerStatus = $model->register();
 			//Yii::$app->getSession()->setFlash('your registration has completed successfully');
 			Yii::$app->getSession()->setFlash('success', [

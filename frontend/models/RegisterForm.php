@@ -9,6 +9,7 @@ use Yii;
 use kop;
 
 
+
 /**
  * registermodel
  */
@@ -26,7 +27,7 @@ class RegisterForm extends Model
 	public $country;
 	public $storename;
 	public $storeaddress;
-	public $profileImage;
+	public $imageFile;
 
 	public function rules(){
 		return [
@@ -63,7 +64,7 @@ class RegisterForm extends Model
 			['country','filter','filter'=>'trim'],
     		['country','required'],
 			
-			
+				
 			['storename', 'required', 'when' => function ($model) {
 				return $model->RegisterType == 2;				
 			}, 'whenClient' => "function (attribute, value) {
@@ -88,7 +89,7 @@ class RegisterForm extends Model
 public function register()
     {
     	$userModel = new User();
-    	print_r($_FILES['profileImage']);exit();
+    	$filePath = $this->upload();
     	$userModel->setPassword($this->password);
     	$userInfo = Yii::$app->db->createCommand()->insert('user', [
     			'username' => $this->username,
@@ -110,14 +111,22 @@ public function register()
 			    'city'=>$this->city,
 		    	'state'=>$this->state,
 		    	'country'=>$this->country,
-			    'zip'=>$this->zip,	    
+			    'zip'=>$this->zip,	        			
 			    'storeName'=>$this->storename,
-			    'storeAddress'=>$this->storeaddress,      		
+			    'storeAddress'=>$this->storeaddress, 
+    			'imageFile' => $filePath,
 		])->execute();
-    	print_r($data);exit();
+    	
     	
     	return $data;
     
         
+    }
+    public function upload()
+    {
+    	
+    		$result= $this->imageFile->saveAs(realpath(Yii::$app->basePath).'/uploads/profile/' . $this->imageFile->baseName . '.' . $this->imageFile->extension);
+    		$fileUrl = '/uploads/profile/'. $this->imageFile->baseName . '.' . $this->imageFile->extension;
+    		return $fileUrl;
     }
 }
