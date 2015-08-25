@@ -38,8 +38,6 @@ $this->params['breadcrumbs'][] = $this->title;
                <?= $form->field($model, 'zip')?>
               <?php echo $form->field($model, 'state')->dropDownList(['AP' => 'AndhraPradesh', 'TS' => 'Telangana', 'KA' => 'Karnataka']); ?> 
                <?= $form->field($model, 'country') ?>
-               
-               
 
  <?= $form->field($model, 'imageFile')->widget(FileInput::classname(), [
     'options' => ['accept' => 'image/*'],
