@@ -1,14 +1,16 @@
 <?php
 
-
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+
+
+
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Vendorproducts */
 
 $this->title = $model->Pid;
-$this->params['breadcrumbs'][] = ['label' => 'Vendorproducts', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Vendorproducts', 'url' => ['']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="vendorproducts-view">
@@ -23,18 +25,32 @@ $this->params['breadcrumbs'][] = $this->title;
                 'confirm' => 'Are you sure you want to delete this item?',
                 'method' => 'post',
             ],
-        ]) ?>
+       
+        
+        ]) ;
+                    
+        ?>
     </p>
-
+    
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
             'Pid',
+            'Vpid',
             'ProductName',
-            'Quatity',
-            'Weight',
-            'Price',
-            'Discount',
+            'Brand',
+            'Quantity',
+            'UOM',
+            'AltQty',
+            'AltUom',
+            'UnitPrice',
+            'SalePrice',
+            'PriceUnit',
+            'StartDate',
+            'EndsDate',
+            'ReserveCount',
+            'SaleInd',
+            'FileUpload',
         ],
     ]) ?>
     
