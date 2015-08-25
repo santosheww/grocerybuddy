@@ -10,6 +10,16 @@ $this->params['breadcrumbs'][] = ['label' => 'Vendorproducts', 'url' => ['index'
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
+
+  <?php if (Yii::$app->session->hasFlash('usercreated')): ?>
+
+<div class="alert alert-success"> Your Products are successfully inserted</div>
+
+<p>
+      <?= Html::a('import',['/vendor/import']); ?>
+    </p>
+
+<?php else: ?>
 <div class="vendorproducts-view">
 
     <h1><?= Html::encode($this->title) ?></h1>   
