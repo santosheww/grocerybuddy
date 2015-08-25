@@ -104,53 +104,71 @@ NavBar::begin ( [ ]
  );
 $menuItems = [ 
 		[ 
-				'label' => 'Home',
+			
+						'label' => 'Home',
+				'linkOptions'=>['class'=>'color2'],
+				'params' => [
+        'icon-framework' => 'fa',  // Font Awesome Icon framework
+               ],
 				'url' => [ 
 						'/site/index' 
-				] 
+				]
+						
+						
 		],
-		[ 
-				'label' => 'STORELOCATOR',
+		[     
+				
+				'label' => 'Store Locator',
 				'url' => [ 
-						'/site/about' 
-				] 
+						'/site/store locator' 
+				],
+				'linkOptions'=>['class'=>'color3'],
 		],
-		[ 
-				'label' => 'MY REWORDS',
+		[    
+				
+				'linkOptions'=>['class'=>'color4'],
+				'label' => 'My Rewards ',
 				'url' => [ 
-						'/site/contact' 
+						'/site/my rewards' 
 				] 
 		] ,
 		[
-		      'label' => 'MY LIST',
-		      'url' => [
-				      '/site/about'
+				
+				'linkOptions'=>['class'=>'color5'],
+		        'label' => 'My List ',
+		        'url' => [
+				         '/site/my list'
 		]
 		],
 		[
-		      'label' => 'MY STOREOFFERS',
-		      'url' => [
-				   '/site/about'
+				'linkOptions'=>['class'=>'color6'],
+		        'label' => 'Mystore Offers',
+		        'url' => [
+				         '/site/mystore offers'
 		]
 		],
 		[
-		'label' => 'GB DICTIONARY',
-		'url' => [
-				'/site/about'
+				'linkOptions'=>['class'=>'color7'],
+		        'label' => 'GB Dictionary',
+		        'url' => [
+				         '/site/dictionary'
 		]
 		],
 		[
-		'label' => 'FAQS',
-		'url' => [
-				'/site/about'
+				'linkOptions'=>['class'=>'color8'],
+		        'label' => 'FAQS',
+		        'url' => [
+				         '/site/faqs'
 		]
 		],
 		[
-		'label' => 'VENDOR OPTIONS',
-		'url' => [
-				'/site/about'
+				'linkOptions'=>['class'=>'color1'],
+		        'label' => 'Vendor Options',
+		        'url' => [
+				        '/vendor/index'
 		]
 		],
+				
 ];
 
 echo Nav::widget ( [ 
